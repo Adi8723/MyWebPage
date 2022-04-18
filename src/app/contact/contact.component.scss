@@ -1,0 +1,254 @@
+.contact{
+	width: auto;
+	background-color: #333;
+	height: 52vh;
+	padding-bottom: 100px;
+	padding-top: 20px;
+		h5 {
+		  text-align: center;
+		  text-transform: uppercase;
+		  letter-spacing: 10px;
+		  font-weight: 600;
+		  font-size: 18px;
+		  color: #fff;
+		  span {
+		    color: #ffa600;
+		  }
+		}
+		
+}
+.line {
+  margin: 20px auto;
+  width: 25px;
+  height: 1px;
+  background-color: #dcdcdc;
+}
+.row{
+	display: flex;
+	justify-content: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;	
+	input{
+		height: 40px;
+		padding: 15px 15px;
+		border: 0;
+		font-size: 16px;
+		background-color: transparent;
+		color: #fff;
+		border-bottom: 1px solid #fff !important;
+		outline: none;
+		&::placeholder{
+			color: #ffa600;
+			text-transform: uppercase;
+			letter-spacing: 2pt;
+		}
+	}
+	
+	
+	textarea{
+		margin-top: 30px;
+		height: 40px;
+		padding: 15px 15px;
+		border: 0;
+		font-size: 16px;
+		background-color: transparent;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+		outline: none;
+		&::placeholder{
+			color: #ffa600;
+			text-transform: uppercase;
+			letter-spacing: 2pt;
+		}
+		
+	} 
+	label{
+		margin: 5px;
+		letter-spacing: 6px;
+
+	}
+	
+	button{
+		max-width: 400px;
+		margin: auto;
+		font-weight: 600;
+		font-size: 14px;
+		letter-spacing: 6px;
+		color: #1b1b1b;
+		border-radius: 0px;
+		padding: 15px 40px;
+		margin-top: 50px;
+		text-transform: uppercase;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	
+}
+
+@media (max-width:1150px) {
+	form{
+		margin-left: 35px;
+	 	margin-right: 35px;
+	}
+	
+}
+@media (max-width:1000px) {
+	form{
+		margin-left: 70px;
+	 	margin-right: 70px;
+	}
+	
+}
+@media (max-width:970px) {
+	form{
+		margin-left: 50px;
+	 	margin-right: 50px;
+	}	
+}
+@media (max-width:920px) {
+	form{
+		margin-left: 40px;
+	 	margin-right: 40px;
+	}	
+}
+@media (max-width:850px) {
+	form{
+		margin-left: 50px;
+	 	margin-right: 50px;
+		 input{
+			text-align: center;
+		  }
+		  textarea {
+			text-align: center;
+		  }
+	}	
+}
+@media (max-width:800px) {
+	form{
+		margin-left: 45px;
+	 	margin-right: 45px;
+		 
+	}	
+}
+@media (max-width: 700px) {
+
+  form{
+	
+	 margin-left: 70px;
+	 margin-right: 70px;
+	  
+  }
+}
+
+@media (max-width: 500px) {
+	form{ 
+	   margin-left: 40px;
+	   margin-right: 40px;
+		
+	}
+}
+@media (max-width: 450px) {
+	form{	  
+	   margin-left: 50px;
+	   margin-right: 50px;		
+	}
+}
+@media (max-width: 414px) {
+	form{	  
+	   
+	   input {
+		font-size: 14px;
+		
+    }
+	 label{
+		 font-size: 14px;
+	 }
+
+    textarea {
+		font-size: 14px;
+		
+    }
+	 button{
+		 font-size: 12px;
+	 }		
+	}
+}
+
+@media (max-width: 400px) {
+
+  form {  
+		margin-left: 60px;
+	   margin-right: 60px;
+    input {
+		font-size: 14px;
+		
+    }
+	 label{
+		 font-size: 14px;
+	 }
+
+    textarea {
+		font-size: 14px;
+		
+    }
+	 button{
+		 font-size: 12px;
+	 }
+  }
+}
+
+@media(max-width: 360px){
+ form{
+
+    input {
+		font-size: 12px;
+		
+    }
+	
+    textarea {
+		font-size: 12px;
+		
+    }
+ 
+ }
+}
+
+@media(max-width: 280px){
+	form{
+		
+	   input {
+		   font-size: 12px;
+		   margin-left: 20px;
+			margin-right: 20px;
+	   }
+	   
+	   textarea {
+		   font-size: 12px;	 
+		   margin-left: 20px;
+			margin-right: 20px;  
+	   }
+	   button{
+		max-width: 200px;
+		margin: auto;
+		font-size: 10px;
+		letter-spacing: 6px;
+		color: #1b1b1b;
+		border-radius: 0px;
+		padding: 15px 30px;
+		margin-top: 50px;
+		text-transform: uppercase;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	
+	}
+   }

@@ -1,0 +1,60 @@
+<div class="contact" id="contact">
+  <div class="container">
+    <h5 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      Contact <span>Me</span>
+    </h5>
+    <hr class="line" />
+    <div class="row">
+      <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        <label
+          style="color: red"
+          for=""
+          *ngIf="name && name.invalid && name.touched"
+          >Please enter a valid name in the form below</label
+        >
+
+        <input
+          pattern="[a-zA-Z ]*"
+          type="text"
+          name="name"
+          [(ngModel)]="contact.name"
+          #name="ngModel"
+          placeholder="Your name"
+          data-aos="fade-left"
+        />
+
+        <label
+          style="color: red"
+          for=""
+          *ngIf="email && email.invalid && email.touched"
+          >Please enter a valid email in the form below</label
+        >
+
+        <input
+          type="email"
+          name="email"
+          [(ngModel)]="contact.email"
+          placeholder="Your EMail"
+          #email="ngModel"
+          data-aos="fade-left"
+          email
+        />
+        <textarea
+          type="message"
+          name="message"
+          [(ngModel)]="contact.message"
+          #message="ngModel"
+          id=""
+          cols="30"
+          rows="10"
+          data-aos="fade-left"
+          placeholder="Your message"
+          required
+        ></textarea>
+        <button type="submit" [disabled]="!contactForm.form.valid">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,219 @@
+.card {
+
+	display: flex;
+	justify-content: space-between;
+	  .li {
+		list-style: none;
+		position: relative;
+		
+		
+	
+		.figure {
+			display: flex;
+			overflow: hidden;
+			
+		  img {
+			object-fit: cover;
+			height: 350px;
+			width: 450px;
+			display: flex;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+	
+			:hover {
+			  transform: translateY(-100px);
+	
+			}
+			@media (max-width: 1150px) {
+				height: 340px;
+				width: 415px;
+			}
+			@media (max-width: 1000px) {
+				height: 340px;
+				width: 385px;
+			}
+			
+			@media (max-width: 900px) {
+				height: 280px;
+				width: 335px;
+			}
+			@media (max-width: 865px) {
+				height: 280px;
+				width: 320px;
+			}
+			@media (max-width: 800px) {
+				height: 280px;
+				width: 320px;
+			}
+			
+			@media (max-width: 768px) {
+				height: 250px;
+				width: 305px;
+			}
+			@media (max-width: 730px) {
+				height: 250px;
+				width: 280px;
+			}
+			@media (max-width: 710px) {
+				height: 350px;
+				width: 570px;
+			}
+			@media (max-width: 600px) {
+				height: 300px;
+				width: 485px;
+			}
+			@media (max-width: 550px) {
+				height: 260px;
+				width: 380px;
+			}
+			@media (max-width: 500px) {
+				height: 260px;
+				width: 335px;
+			}
+			@media (max-width: 450px) {
+				height: 260px;
+				width: 325px;
+			}
+			@media (max-width: 400px) {
+				height: 260px;
+				width: 280px;
+			}
+			@media (max-width: 375px) {
+				height: 240px;
+				width: 290px;
+			}
+			@media (max-width: 350px) {
+				height: 240px;
+				width: 245px;
+			}
+			@media (max-width: 280px) {
+				height: 200px;
+				width: 200px;
+			}
+		  }
+		}
+	
+	  }
+	  figcaption {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  padding: 20px;
+		  background: #75623e;
+		  @media (max-width: 990px) {
+			padding: 10px;
+			}
+			
+		  h3 {
+			padding: 0;
+			color: #fff;
+			@media (max-width: 510px) {
+				font-size: 16px;
+			}
+			@media (max-width: 410px) {
+				font-size: 16px;
+			}
+		  }
+		
+		  a {
+			border-radius: 5px;
+			background: #ffa600;
+			color: #fff;
+			padding: 5px 20px;
+			text-decoration: none;
+			@media (max-width: 510px) {
+				padding: 5px 15px;
+				font-size: 14px;
+			}
+			@media (max-width: 410px) {
+				padding: 5px 10px;
+				font-size: 14px;
+			}
+			&:hover{
+				transform: scale(1.1);
+			}
+		  }
+		  
+		}
+  }
+
+
+
+
+.cs-style-2 {
+	
+  img {
+    z-index: 10;
+    transition: transform 0.4s;
+    :hover {
+      transform: translateY(-100px);
+    }
+  }
+
+  figcaption {
+	height: 90px;
+	top: auto;
+	bottom: 0;
+	width: 410px;
+	text-align: center;
+	@media (max-width: 1150px) {
+		width: 375px;
+	}
+	@media (max-width: 1000px) {
+		width: 345px;
+	}
+	
+	@media (max-width: 900px) {
+		width: 315px;
+	}
+	@media (max-width: 865px) {
+		width: 300px;
+	}
+	@media (max-width: 768px) {
+		width: 285px;
+
+	}
+	@media (max-width: 730px) {
+		width: 260px;
+
+	}
+	@media (max-width: 710px) {
+		width: 550px;
+	}
+	@media (max-width: 600px) {
+		width: 465px;
+	}
+	@media (max-width: 550px) {
+		width: 360px;
+	}
+	@media (max-width: 500px) {
+		width: 315px;
+	}
+	@media (max-width: 450px) {
+		width: 305px;
+	}
+	@media (max-width: 400px) {
+		width: 260px;
+	}
+	@media (max-width: 375px) {
+		width: 270px;
+	}
+	@media (max-width: 350px) {
+		width: 225px;
+	}
+	@media (max-width: 280px) {
+		width: 180px;
+	}
+  }
+}
+
+
+
+.cs-style-2 .figure:hover img,
+.cs-style-2 .figure.cs-hover img {
+  transform: translateY(-100px);
+
+}
+
+

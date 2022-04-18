@@ -1,0 +1,81 @@
+<div id="menu" class="navbar">
+  <div class="container">
+    <div class="row">
+      <div class="logo">
+        <h1 class="line">A.S</h1>
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li>
+            <a routerLink="/" (click)="goHome()" routerLinkActive="aktive"
+            
+              >Home</a
+            >
+          </li>
+          <li>
+            <a routerLink="/" (click)="goAbout()" routerLinkActive="aktive"
+              >About</a
+            >
+          </li>
+          <li>
+            <a routerLink="/" (click)="goWork()" routerLinkActive="aktive"
+              >Work</a
+            >
+          </li>
+          <li>
+            <a routerLink="/" (click)="goToSkills()" routerLinkActive="aktive"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a routerLink="/" (click)="goContact()" routerLinkActive="aktive"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div id="menu-icon">
+        <div (click)="Togglemenuicon()" class="hamburger-menu"  >
+          <i class="fa fa-bars"></i>
+        </div>
+        <div class="mobile-menu" id="myNav" [class.open]="width0" >
+          <a (click)="closeNav()" class="closebtn" >x</a>
+          <ul>
+            <li>
+              <a
+                routerLink="/"
+                (click)="goHome()"
+                #closNav class="nav-link" 
+                routerLinkActive="aktive"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a routerLink="/" (click)="goAbout()" routerLinkActive="aktive" class="nav-link"
+                >About</a
+              >
+            </li>
+            <li>
+              <a routerLink="/" (click)="goWork()" routerLinkActive="aktive" class="nav-link"
+                >Work</a
+              >
+            </li>
+            <li>
+              <a routerLink="/" (click)="goToSkills()" routerLinkActive="aktive" class="nav-link"
+                >Services</a
+              >
+            </li>
+
+            <li>
+              <a routerLink="/" (click)="goContact()" routerLinkActive="aktive" class="nav-link"
+                >Contact</a
+              >
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

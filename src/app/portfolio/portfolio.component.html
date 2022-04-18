@@ -1,0 +1,11 @@
+<div class="portfolio" id="work">
+  <h5 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+    My <span>Work</span>
+  </h5>
+  <hr class="line" />
+  <div class="container">
+    <div class="row">
+      <app-card class="card" [post]="post" *ngFor="let post of posts"></app-card>   
+    </div>
+  </div>
+</div>

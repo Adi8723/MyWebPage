@@ -1,0 +1,73 @@
+
+
+
+.portfolio{
+	background-color: #333;
+	h5{
+		text-align: center;
+		text-transform: uppercase;
+		color: #fff;
+		letter-spacing: 10px;
+    font-size: 18px;
+    padding-top: 70px;
+    overflow: hidden;
+    span {
+      color: #ffa600;
+    }
+	}
+}
+.line {
+  margin: 20px auto;
+  width: 25px;
+  height: 1px;
+  background-color: #dcdcdc;
+  margin-bottom: 40px;
+
+}
+
+
+.row{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  margin-left: -24px;
+  margin-right: -20px;
+  app-card{
+		margin: 30px;
+    max-width: 100%;
+		padding-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 750px) {
+  .row{
+    
+    app-card{
+      margin: 10px 15px;
+      
+    }
+  }
+}
+
+
+@media (max-width: 800px) {
+  .row{
+    
+    app-card{
+      margin: 10px 15px;
+      
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
